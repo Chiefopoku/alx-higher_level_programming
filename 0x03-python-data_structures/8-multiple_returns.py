@@ -6,6 +6,6 @@ def multiple_returns(sentence):
     if lenght > 0:
         first_char = sentence[0]
     else:
-        first_char = None
+        first_char = "None"
     tup = lenght, first_char
     return tup
