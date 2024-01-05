@@ -66,8 +66,8 @@ class Rectangle:
                 rectangle.append("\n")
         return ("".join(rectangle))
 
-    def _repr_(self):
+    def __repr__(self):
         """Return the string representation of the Rectangle."""
-        rectangle = "Rectangle(" + str(self.__width)
-        rectangle += ", " + str(self.__height) + ")"
-        return (rectangle)
+        rect = "Rectangle(" + str(self.__width)
+        rect += ", " + str(self.__height) + ")"
+        return (rect)
